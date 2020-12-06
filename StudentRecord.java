@@ -29,3 +29,18 @@ import java.util.Scanner;
 
         }
     }
+
+// 3
+// 2
+// Shrikanth 20 30 10 Ram 100 50 10
+// 3
+// Adam 50 10 40 Suresh 22 1 56 Rocky 100 90 10
+// 3
+// Adam 50 10 40 Suresh 22 10 56 Mike 10 90 20
+
+
+
+// Ram 53
+// Rocky 66
+// Mike 40
+

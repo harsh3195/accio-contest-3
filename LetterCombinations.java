@@ -1,4 +1,19 @@
 class letterCombinations {
+  public static void main(String[] args) 
+{
+  Scanner sc = new Scanner(System.in);
+  int T = sc.nextInt();
+  while(T-->0){
+    String str = sc.next();
+    ArrayList<String> al  = letterCombinations(str);
+    for(String s: al){
+      System.out.print(s+" ");
+    }
+    System.out.println(s);
+  }
+
+}
+
   Map<String, String> phone = new HashMap<String, String>() {{
     put("2", "abc");
     put("3", "def");
@@ -39,3 +54,4 @@ class letterCombinations {
     return output;
   }
 }
+
