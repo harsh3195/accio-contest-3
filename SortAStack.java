@@ -23,7 +23,7 @@ class SortAStack{
 
 
 /*Complete the function below*/
-class GFG{
+class GfG{
 	public Stack<Integer> sort(Stack<Integer> s)
 	{
 		//add code here.
@@ -55,7 +55,7 @@ class GFG{
 // 5 4 3 2 1
 
 
-// 1 2 3
-// 2 3 12 23 43 54 67 87 90 93
-// 1 2 3 4 5
+// 3 2 1
+// 93 90 87 67 54 43 23 12 3 2 
+// 5 4 3 2 1
 
