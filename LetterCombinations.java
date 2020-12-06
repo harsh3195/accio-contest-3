@@ -9,7 +9,7 @@ class letterCombinations {
     for(String s: al){
       System.out.print(s+" ");
     }
-    System.out.println(s);
+    System.out.println();
   }
 
 }
@@ -54,4 +54,10 @@ class letterCombinations {
     return output;
   }
 }
+
+
+// 3
+// 32
+// 34
+// 304
 

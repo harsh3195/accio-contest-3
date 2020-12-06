@@ -11,18 +11,18 @@ const fs = require('fs')
 
 const stdin = `
 3
+2
+Shrikanth 20 30 10 Ram 100 50 10
 3
-3 2 1
-10
-23 12 3 43 54 67 87 93 90 2
-5
-5 4 3 2 1
+Adam 50 10 40 Suresh 22 1 56 Rocky 100 90 10
+3
+Adam 50 10 40 Suresh 22 10 56 Mike 10 90 20
 `.trim()
 
 const expectedOutput = `
-3 2 1 
-93 90 87 67 54 43 23 12 3 2 
-5 4 3 2 1 
+Ram 53
+Rocky 66
+Mike 40 
 `
 	.trim()
 	.split('\n')
